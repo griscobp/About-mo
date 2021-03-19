@@ -1,16 +1,49 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {box-sizing: border-box}
+ <!DOCTYPE html>
+  <html>
+      <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+      * {box-sizing: border-box}
+      
+      /* Set height of body and the document to 100% */
+      body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial;
+      }
+      
+      /* Style tab links */
+      .tablink {
+        background-color: #555;
+        color: white;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 20px 16px;
+        font-size: 20px;
+        width: 33.33%;
+      }
+      
+      .tablink:hover {
+        background-color: black;
+      }
+      
+      /* Style the tab content (and add height:100% for full page content) */
+      .tabcontent {
+        color: black;
+        display: none;
+        padding: 100px 30px;
+        height: 100%;
+      }
+      
+      #Home {background-color: rgb(215, 250, 255);}
+      #Resume {background-color: rgb(215, 250, 255);}
+      #Contact {background-color: rgb(215, 250, 255);}
 
-/* Set height of body and the document to 100% */
-body, html {
-  height: 100%;
-  margin: 0;
-  font-family: Arial;
-}
+      h3 {text-align: center;}
+      p {text-align: center;}
+      div {text-align: center;}
 
 /* Style tab links */
 .tablink {
@@ -37,9 +70,9 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: white;}
-#Resume {background-color: white}
-#Contact {background-color: white}
+#Home {background-color: light blue;}
+#Resume {background-color: light blue}
+#Contact {background-color: light blue}
 </style>
 </head>
 <body>
@@ -52,12 +85,13 @@ body, html {
   <h2>About Me</h2>
   <p> My name is Blake Griscom, I am a hard working and dedicated sophomore (ISAT) Integrated Science and Technology student at James Madison University. I am looking to get an internship in the field of agriculture, relatively close to home. Throughout my life I have gained experience working on my family's farm and learning how it runs.
   </p>
-  <img src="img_2733.png"  width="500" height="333">
+  <img src="img_2733.png"  width="550" height="500">
 </div>
 
 <div id="Resume" class="tabcontent">
   <h3>Resume</h3>
-  <p>up to date</p> 
+  <p>Below is my professional resume</p> 
+  <img src="real_resume.JPG"
 </div>
 
 <div id="Contact" class="tabcontent">
